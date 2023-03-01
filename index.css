@@ -1,6 +1,6 @@
 body {
     background-image: url("rdr2_2.png");
-    object-fit: cover;
+    object-fit: fill;
     font-family: 'Tilt Warp', cursive;
     font-weight: bold;
     text-align: left;
@@ -10,10 +10,10 @@ body {
     background-position: center center;
     background-attachment: fixed;
 
-    margin: 50px;
-    overflow:hidden ;
-    min-width: 100vh;
-    min-height: 100vh;
+    /* margin: 50px; */
+    overflow: hidden;
+    /* max-width: 100vh;
+    max-height: 100vh; */
 }
 
 h1 {
