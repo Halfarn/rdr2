@@ -12,6 +12,8 @@ function calculate() {
     saveInf.innerHTML = ""
     saveStr = price
     newPrice = price * inflation
-    priceRound = Math.round((newPrice + Number.EPSILON) * 100) / 100
-    saveInf.innerText +="$" + priceRound
+    if (isNaN(newPrice) === true) {
+        saveInf.innerHTML = "Please enter a valid number"
+    } else {priceRound = Math.round((newPrice + Number.EPSILON) * 100) / 100
+    saveInf.innerText +="$" + priceRound}
 }

@@ -52,8 +52,14 @@ h2 {
 
 
 input {
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px 10px;
+    width: 60px;
+    overflow: visible;
+    border:none
+}
+input:focus{ 
+    outline-color:#c20410
 }
 
 button {
