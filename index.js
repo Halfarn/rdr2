@@ -17,3 +17,13 @@ function calculate() {
     } else {priceRound = Math.round((newPrice + Number.EPSILON) * 100) / 100
     saveInf.innerText +="$" + priceRound}
 }
+
+window.addEventListener("scroll", preventMotion, false);
+window.addEventListener("touchmove", preventMotion, false);
+
+function preventMotion(event)
+{
+    window.scrollTo(0, 0);
+    event.preventDefault();
+    event.stopPropagation();
+}
