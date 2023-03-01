@@ -1,18 +1,19 @@
 body {
     background-image: url("rdr2_2.png");
-    /* object-fit: fill; */
+    object-fit: fill;
     font-family: 'Tilt Warp', cursive;
     font-weight: bold;
     text-align: left;
-    /* height: 100vh; */
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    /* margin: 50px; */
+
+    margin: 50px;
     overflow: hidden;
-    min-width: 100vh;
-    min-height: 100vh;
+    max-width: 100vh;
+    max-height: 100vh;
 }
 
 h1 {
@@ -34,8 +35,7 @@ h1 {
   top: 30%;
   left: 2vh;
   text-align: center;
-  /* scale: 150%;
-  overflow: */
+  max-width: 100vh;
 }
 
 
